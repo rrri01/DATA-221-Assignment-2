@@ -14,7 +14,7 @@ soup = BeautifulSoup(contents.text, "html.parser")
 # headings = soup.find("h2")
 # print(headings.string)
 
-with open("wiki_table.csv", mode="w", newline="") as f:
+with open("headings.csv", mode="w", newline="") as f:
     writer = csv.writer(f)
 
     for heading in soup.body.find_all("h2"):
@@ -27,4 +27,5 @@ with open("wiki_table.csv", mode="w", newline="") as f:
         if "Notes" in heading.string:
             continue
         writer.writerow(heading)
+
 
