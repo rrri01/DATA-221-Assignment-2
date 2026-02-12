@@ -23,8 +23,16 @@ Question 6:
 This program uses the crime.csv file, and creates a column, "risk," based on the ViolentCrimesPerPop column. The risk is either set to "HighCrime" or "LowCrime." Then the data is grouped by the risk column. For each group (HighCrime and LowCrime), the program will find the average unemployment rate for each.
 
 Question 7:
-This program scrapes the given wikipedia page, and uses "requests" and "BeautifulSoup" to find the "title" and also
+This program scrapes the given wikipedia page, and uses "requests" and "BeautifulSoup" to find the "title" and also prints the first paragraph inside the div with the id called "mw-content-text."
 
+Question 8:
+This program extracts all the <h2> headers from the wikipedia page, and returns the headings, excluding any headings that contain "References", "External links," "See also," and "Notes." Then it saves these headings to headings.txt.
 
+Question 9:
+This program will take the first table in the wikipedia page, and extract the table headers.
+Then it saves the table to wiki_table.csv.
+
+Question 10:
+This program is a function that will take in a file and keyword as arguements. Then it will search each line in the file for any words that match the keyword. The program will return the amount of lines with the keyword arguement, as well as the first 3 lines with the keyword, as well as their line number.
 
 
