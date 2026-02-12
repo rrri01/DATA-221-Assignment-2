@@ -15,3 +15,6 @@ soup = BeautifulSoup(contents.text, "html.parser")
 title = soup.find("title")
 print(title.string)
 
+container = soup.find("div", attrs={"id": "mw-content-text"})
+para = container.find_all("p")
+print(para[1].text)
