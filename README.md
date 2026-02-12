@@ -26,7 +26,7 @@ Question 7:
 This program scrapes the given wikipedia page, and uses "requests" and "BeautifulSoup" to find the "title" and also prints the first paragraph inside the div with the id called "mw-content-text."
 
 Question 8:
-This program extracts all the "h2" headers from the wikipedia page, and returns the headings, excluding any headings that contain "References", "External links," "See also," and "Notes." Then it saves these headings to headings.txt.
+This program extracts all the "<h2>" headers from the wikipedia page, and returns the headings, excluding any headings that contain "References", "External links," "See also," and "Notes." Then it saves these headings to headings.txt.
 
 Question 9:
 This program will take the first table in the wikipedia page, and extract the table headers.
